@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12294" started-at="2017-10-31T12:42:50Z" finished-at="2017-10-31T12:43:03Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.vlabs.qa.stepdefinations.TestRunner@192b07fd]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="12294" started-at="2017-10-31T12:42:50Z" finished-at="2017-10-31T12:43:03Z">
+      <class name="com.vlabs.qa.stepdefinations.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.vlabs.qa.stepdefinations.TestRunner@192b07fd]" name="setUpClass" is-config="true" duration-ms="191" started-at="2017-10-31T18:12:50Z" finished-at="2017-10-31T18:12:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.vlabs.qa.stepdefinations.TestRunner@192b07fd]" name="feature" duration-ms="11983" started-at="2017-10-31T18:12:51Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2017-10-31T18:13:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Title of your feature]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.vlabs.qa.stepdefinations.TestRunner@192b07fd]" name="tearDownClass" is-config="true" duration-ms="41" started-at="2017-10-31T18:13:03Z" finished-at="2017-10-31T18:13:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.vlabs.qa.stepdefinations.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
